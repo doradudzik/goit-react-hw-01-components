@@ -23,12 +23,12 @@ const TransactionHistory = ({ transactions }) => (
   </table>
 );
 TransactionHistory.propTypes = {
-  friends: PropTypes.arrayOf(
+  transactions: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      avatar: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-      isOnline: PropTypes.bool.isRequired,
+      id: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      amount: PropTypes.number.isRequired,
+      currency: PropTypes.string.isRequired,
     })
   ).isRequired,
 };
