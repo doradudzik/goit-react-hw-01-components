@@ -1,0 +1,39 @@
+p,
+ul,
+li,
+div {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.transactionHistory {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.columnDescription {
+    background-color: #00bcd5;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.tableRow {
+    height: 50px;
+    color: #666a6f;
+}
+
+.tableRow:nth-child(2n) {
+    background-color: #ecf1f4;
+}
+
+.tableItem {
+    width: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
